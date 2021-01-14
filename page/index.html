@@ -21,6 +21,27 @@
     <!--サイトのエンコード形式-->
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="./img/icon.ico">
+    <script language="javascript" type="text/javascript">
+        function OnLinkClick() {
+            var result = prompt('パスワード付きページを読み込みました\nページ内容を表示するにはパスワードを入力してください。');
+
+                if (result === 'maron0710') {
+                    alert('パスワードが通りました。\nOKを押したらすぐにリダイレクトされます。');
+                    setTimeout("redirect()", 1000);
+
+                    function redirect() {
+                        location.href = './Other/pege4-1.html';
+                    }
+                } else {
+                    alert('パスワードが違います。OKを押してから3秒後に再読み込みされます。');
+                    setTimeout("redirect()", 3000);
+
+            function redirect() {
+        location.href = 'index.html';
+    }
+}
+        }
+  </script>
 </head>
 
 <!--body開始-->
@@ -60,7 +81,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="./Other/pege4-1.html">理科関係</a>
+                    <a href="javascript:OnLinkClick();">理科関係</a>
                 </li>
             </ul>
             <div class="header-img">
