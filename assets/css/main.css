@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-
 html,
 body,
 div,
@@ -1229,8 +1228,8 @@ button:disabled,
 	color: rgba(255, 255, 255, 0.5);
 	left: 4em;
 	opacity: 0.5;
-  position: absolute;
-  left: 5%;
+	position: absolute;
+	left: 5%;
 }
 
 #footer .icons {
@@ -1298,4 +1297,3 @@ button:disabled,
 		position: relative;
 	}
 }
-
