@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+	<head>
+		<title>ログインページ</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+
+	<body class="is-preload">
+	
+		<!-- Header -->
+		<header id="header">
+			<h1>卒業おめでとうございます</h1>
+			<p>卒業ムービーをダウンロードするには学校で渡されたパスワードを入力してください</p>
+		</header>
+
+		<!-- Form -->
+		<form id="passwd-form" method="post" action="#">
+		<input type="password" name="pass" id="pass" placeholder="パスワードを入力してください" inputmode="numeric"
+			minlength="1" maxlength="15" size="15" />
+		<input type="submit" value="送信" />
+		<input type="reset" value="取消" />
+		</form>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="#" onclick="twitter()" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" onclick="GitHub()" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="#" onclick="Email()" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>Copyright &copy; 2021 相田優希. All Rights Reserved.</li>
+			</ul>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/sub.js"></script>
+		<script>
+			function twitter() {
+				alert("見せられるわけありません！！！");
+			}
+
+		</script>
+		<script>
+			function Email() {
+				alert("メールはdropbox.movie.0710@gmail.comにお願いします(多分見ないけど)");
+			}
+
+		</script>
+		<script>
+			function GitHub() {
+				alert("このサイトのソースコード見たいですかね、、、見たいって声があれば公開します、、、");
+			}
+
+		</script>
+
+	</body>
+
+</html>
