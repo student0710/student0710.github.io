@@ -10,6 +10,6 @@ window.addEventListener('load', () => {
     loader.style.display = 'none';
   }
 
-  setTimeout(loaderOpacity, 1500);
-  setTimeout(loaderDisplay, 1500 + ms);
+  setTimeout(loaderOpacity, 5000);
+  setTimeout(loaderDisplay, 5000 + ms);
 });
