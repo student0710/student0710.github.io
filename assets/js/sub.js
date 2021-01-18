@@ -50,12 +50,13 @@
 		// but there's enough here to piece together a working AJAX submission call that does.
 		window.setTimeout(function () {
 
-            const passwd = 'masakimaron0710';
+            const passwd = 'パスワード';
 			// Show message.
 			if ($message == passwd) {
-				$message._show('成功', '成功しました。3秒後にメインページに移動します');
+				$message._show('成功', '成功しました。メインページに移動します');
 				$submit.disabled = false;
 				$form.reset();
+				//リダイレクト動作をさせる
 			} else {
 				$message._show('失敗', 'パスワードの認証に失敗しました');
 				$submit.disabled = false;
