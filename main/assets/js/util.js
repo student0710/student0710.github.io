@@ -1,1 +1,587 @@
-var _0x356f=['preventDefault','checkbox','originalEvent','492608JiehnS','<div>','jQuery','visibleClass','hideOnSwipe','input[type=text],input[type=password],textarea','placeholder','-ms-overflow-style','a[href=\x22#','location','hide','append','keydown','radio','_hide','__prioritize','<a\x20','body','252068YMoFEM','clone','resetScroll','push','addClass','1dJuBWV','562573TJtovY','click','match','hideOnEscape','hasClass','length','544935vKrcgG','delay','find','setTimeout','insertAfter','scrollTop','navList','-polyfill-field]','463amUFOF','keypress','get','touchPosY','val','removeData','\x20href=\x22','pageX','1gnKxsG','touchPosX','type=\x22text\x22','prev','\x20target=\x22','class=\x22link\x20depth-','595YGoIWz','top','click\x20touchend','touchmove','reset','join','name','left','prioritize','data','polyfill-placeholder','text','prependTo','parent','target','right','_blank','50498WEWaLP','each','\x22></span>','remove','bottom','-polyfill-field','attr','css','focus','option:first','type','touch','stopPropagation','checked','undefined','-webkit-overflow-scrolling','input[name=','toggleClass','form','show','removeClass','pageY','replace','type=text','3xOEdvb','blur','defaultValue','input','panel','49689GJKJOW','href','click\x20touchend\x20touchstart\x20touchmove','submit'];var _0x37c9=function(_0x1a28b5,_0x1e39e0){_0x1a28b5=_0x1a28b5-0x1ca;var _0x356f88=_0x356f[_0x1a28b5];return _0x356f88;};(function(_0x1222fc,_0x4171c7){var _0x524f6a=_0x37c9;while(!![]){try{var _0x441281=parseInt(_0x524f6a(0x1f5))*parseInt(_0x524f6a(0x213))+-parseInt(_0x524f6a(0x222))*-parseInt(_0x524f6a(0x230))+-parseInt(_0x524f6a(0x21a))+parseInt(_0x524f6a(0x1fc))+parseInt(_0x524f6a(0x214))+parseInt(_0x524f6a(0x1f0))*-parseInt(_0x524f6a(0x1d8))+parseInt(_0x524f6a(0x20e))*-parseInt(_0x524f6a(0x22a));if(_0x441281===_0x4171c7)break;else _0x1222fc['push'](_0x1222fc['shift']());}catch(_0x2c3988){_0x1222fc['push'](_0x1222fc['shift']());}}}(_0x356f,0x696f2),function(_0x19a193){var _0x11e077=_0x37c9;_0x19a193['fn'][_0x11e077(0x220)]=function(){var _0x3e5f39=_0x11e077,_0x2b6a55=_0x19a193(this);return $a=_0x2b6a55[_0x3e5f39(0x21c)]('a'),b=[],$a[_0x3e5f39(0x1d9)](function(){var _0x132b8f=_0x3e5f39,_0x17e21e=_0x19a193(this),_0x19740e=Math['max'](0x0,_0x17e21e['parents']('li')['length']-0x1),_0x3eb443=_0x17e21e[_0x132b8f(0x1de)](_0x132b8f(0x1f6)),_0x28260f=_0x17e21e[_0x132b8f(0x1de)](_0x132b8f(0x1d5));b[_0x132b8f(0x211)](_0x132b8f(0x20c)+_0x132b8f(0x22f)+_0x19740e+'\x22'+(typeof _0x28260f!==_0x132b8f(0x1e6)&&_0x28260f!=''?_0x132b8f(0x22e)+_0x28260f+'\x22':'')+(typeof _0x3eb443!==_0x132b8f(0x1e6)&&_0x3eb443!=''?_0x132b8f(0x228)+_0x3eb443+'\x22':'')+'>'+'<span\x20class=\x22indent-'+_0x19740e+_0x132b8f(0x1da)+_0x17e21e[_0x132b8f(0x1d2)]()+'</a>');}),b[_0x3e5f39(0x1cc)]('');},_0x19a193['fn'][_0x11e077(0x1f4)]=function(_0x963ee8){var _0x4b19be=_0x11e077;if(this['length']==0x0)return _0x665310;if(this[_0x4b19be(0x219)]>0x1){for(var _0x56d83b=0x0;_0x56d83b<this[_0x4b19be(0x219)];_0x56d83b++)_0x19a193(this[_0x56d83b])[_0x4b19be(0x1f4)](_0x963ee8);return _0x665310;}var _0x665310=_0x19a193(this),_0xdd13d8=_0x19a193(_0x4b19be(0x20d)),_0x40a90a=_0x19a193(window),_0x5a7232=_0x665310[_0x4b19be(0x1de)]('id'),_0x3384ef;_0x3384ef=_0x19a193['extend']({'delay':0x0,'hideOnClick':![],'hideOnEscape':![],'hideOnSwipe':![],'resetScroll':![],'resetForms':![],'side':null,'target':_0x665310,'visibleClass':'visible'},_0x963ee8);if(typeof _0x3384ef[_0x4b19be(0x1d5)]!=_0x4b19be(0x1fe))_0x3384ef[_0x4b19be(0x1d5)]=_0x19a193(_0x3384ef[_0x4b19be(0x1d5)]);_0x665310['_hide']=function(_0x4524c0){var _0x1d4ec4=_0x4b19be;if(!_0x3384ef[_0x1d4ec4(0x1d5)][_0x1d4ec4(0x218)](_0x3384ef[_0x1d4ec4(0x1ff)]))return;_0x4524c0&&(_0x4524c0[_0x1d4ec4(0x1f9)](),_0x4524c0[_0x1d4ec4(0x1e4)]()),_0x3384ef[_0x1d4ec4(0x1d5)]['removeClass'](_0x3384ef[_0x1d4ec4(0x1ff)]),window[_0x1d4ec4(0x21d)](function(){var _0x1a3295=_0x1d4ec4;if(_0x3384ef[_0x1a3295(0x210)])_0x665310[_0x1a3295(0x21f)](0x0);if(_0x3384ef['resetForms'])_0x665310['find'](_0x1a3295(0x1ea))[_0x1a3295(0x1d9)](function(){var _0x2eb5ba=_0x1a3295;this[_0x2eb5ba(0x1cb)]();});},_0x3384ef[_0x1d4ec4(0x21b)]);},_0x665310[_0x4b19be(0x1df)](_0x4b19be(0x203),'-ms-autohiding-scrollbar')['css'](_0x4b19be(0x1e7),_0x4b19be(0x1e3));_0x3384ef['hideOnClick']&&(_0x665310['find']('a')[_0x4b19be(0x1df)]('-webkit-tap-highlight-color','rgba(0,0,0,0)'),_0x665310['on'](_0x4b19be(0x215),'a',function(_0x2c28fd){var _0x324cb4=_0x4b19be,_0x12bb06=_0x19a193(this),_0x2a54ab=_0x12bb06[_0x324cb4(0x1de)]('href'),_0x17cbca=_0x12bb06[_0x324cb4(0x1de)](_0x324cb4(0x1d5));if(!_0x2a54ab||_0x2a54ab=='#'||_0x2a54ab==''||_0x2a54ab=='#'+_0x5a7232)return;_0x2c28fd[_0x324cb4(0x1f9)](),_0x2c28fd[_0x324cb4(0x1e4)](),_0x665310['_hide'](),window['setTimeout'](function(){var _0x399ec4=_0x324cb4;if(_0x17cbca==_0x399ec4(0x1d7))window['open'](_0x2a54ab);else window[_0x399ec4(0x205)][_0x399ec4(0x1f6)]=_0x2a54ab;},_0x3384ef[_0x324cb4(0x21b)]+0xa);}));_0x665310['on']('touchstart',function(_0x501e54){var _0x1f0f7b=_0x4b19be;_0x665310['touchPosX']=_0x501e54[_0x1f0f7b(0x1fb)]['touches'][0x0][_0x1f0f7b(0x229)],_0x665310[_0x1f0f7b(0x225)]=_0x501e54['originalEvent']['touches'][0x0]['pageY'];}),_0x665310['on'](_0x4b19be(0x1ca),function(_0x485b96){var _0x1fc363=_0x4b19be;if(_0x665310[_0x1fc363(0x22b)]===null||_0x665310[_0x1fc363(0x225)]===null)return;var _0x472196=_0x665310[_0x1fc363(0x22b)]-_0x485b96['originalEvent']['touches'][0x0][_0x1fc363(0x229)],_0x308adb=_0x665310[_0x1fc363(0x225)]-_0x485b96[_0x1fc363(0x1fb)]['touches'][0x0][_0x1fc363(0x1ed)],_0x9c340e=_0x665310['outerHeight'](),_0x3cba96=_0x665310[_0x1fc363(0x224)](0x0)['scrollHeight']-_0x665310[_0x1fc363(0x21f)]();if(_0x3384ef[_0x1fc363(0x200)]){var _0x271e0e=![],_0x3a3c02=0x14,_0x422e42=0x32;switch(_0x3384ef['side']){case _0x1fc363(0x1ce):_0x271e0e=_0x308adb<_0x3a3c02&&_0x308adb>-0x1*_0x3a3c02&&_0x472196>_0x422e42;break;case _0x1fc363(0x1d6):_0x271e0e=_0x308adb<_0x3a3c02&&_0x308adb>-0x1*_0x3a3c02&&_0x472196<-0x1*_0x422e42;break;case _0x1fc363(0x231):_0x271e0e=_0x472196<_0x3a3c02&&_0x472196>-0x1*_0x3a3c02&&_0x308adb>_0x422e42;break;case _0x1fc363(0x1dc):_0x271e0e=_0x472196<_0x3a3c02&&_0x472196>-0x1*_0x3a3c02&&_0x308adb<-0x1*_0x422e42;break;default:break;}if(_0x271e0e)return _0x665310['touchPosX']=null,_0x665310['touchPosY']=null,_0x665310[_0x1fc363(0x20a)](),![];}(_0x665310[_0x1fc363(0x21f)]()<0x0&&_0x308adb<0x0||_0x3cba96>_0x9c340e-0x2&&_0x3cba96<_0x9c340e+0x2&&_0x308adb>0x0)&&(_0x485b96['preventDefault'](),_0x485b96['stopPropagation']());}),_0x665310['on'](_0x4b19be(0x1f7),function(_0x1bae7e){var _0x254b67=_0x4b19be;_0x1bae7e[_0x254b67(0x1e4)]();}),_0x665310['on'](_0x4b19be(0x215),_0x4b19be(0x204)+_0x5a7232+'\x22]',function(_0x310419){var _0x2bed2=_0x4b19be;_0x310419[_0x2bed2(0x1f9)](),_0x310419[_0x2bed2(0x1e4)](),_0x3384ef[_0x2bed2(0x1d5)][_0x2bed2(0x1ec)](_0x3384ef[_0x2bed2(0x1ff)]);}),_0xdd13d8['on'](_0x4b19be(0x232),function(_0x5b2933){var _0x505d8d=_0x4b19be;_0x665310[_0x505d8d(0x20a)](_0x5b2933);}),_0xdd13d8['on'](_0x4b19be(0x215),_0x4b19be(0x204)+_0x5a7232+'\x22]',function(_0x46d7e0){var _0x214c79=_0x4b19be;_0x46d7e0[_0x214c79(0x1f9)](),_0x46d7e0[_0x214c79(0x1e4)](),_0x3384ef['target'][_0x214c79(0x1e9)](_0x3384ef[_0x214c79(0x1ff)]);});if(_0x3384ef[_0x4b19be(0x217)])_0x40a90a['on'](_0x4b19be(0x208),function(_0x12a01c){var _0x210b03=_0x4b19be;if(_0x12a01c['keyCode']==0x1b)_0x665310[_0x210b03(0x20a)](_0x12a01c);});return _0x665310;},_0x19a193['fn'][_0x11e077(0x202)]=function(){var _0x2c17ec=_0x11e077;if(typeof document['createElement'](_0x2c17ec(0x1f3))[_0x2c17ec(0x202)]!=_0x2c17ec(0x1e6))return _0x19a193(this);if(this[_0x2c17ec(0x219)]==0x0)return _0x3b047c;if(this['length']>0x1){for(var _0x1246a1=0x0;_0x1246a1<this[_0x2c17ec(0x219)];_0x1246a1++)_0x19a193(this[_0x1246a1])['placeholder']();return _0x3b047c;}var _0x3b047c=_0x19a193(this);return _0x3b047c[_0x2c17ec(0x21c)]('input[type=text],textarea')[_0x2c17ec(0x1d9)](function(){var _0x158515=_0x2c17ec,_0x3cb181=_0x19a193(this);if(_0x3cb181[_0x158515(0x226)]()==''||_0x3cb181[_0x158515(0x226)]()==_0x3cb181['attr']('placeholder'))_0x3cb181[_0x158515(0x212)](_0x158515(0x1d1))[_0x158515(0x226)](_0x3cb181[_0x158515(0x1de)](_0x158515(0x202)));})['on']('blur',function(){var _0x1a1fcb=_0x2c17ec,_0x1c29c6=_0x19a193(this);if(_0x1c29c6[_0x1a1fcb(0x1de)](_0x1a1fcb(0x1cd))[_0x1a1fcb(0x216)](/-polyfill-field$/))return;if(_0x1c29c6[_0x1a1fcb(0x226)]()=='')_0x1c29c6[_0x1a1fcb(0x212)]('polyfill-placeholder')[_0x1a1fcb(0x226)](_0x1c29c6['attr'](_0x1a1fcb(0x202)));})['on'](_0x2c17ec(0x1e0),function(){var _0x422b11=_0x2c17ec,_0x3537ab=_0x19a193(this);if(_0x3537ab[_0x422b11(0x1de)](_0x422b11(0x1cd))[_0x422b11(0x216)](/-polyfill-field$/))return;if(_0x3537ab[_0x422b11(0x226)]()==_0x3537ab[_0x422b11(0x1de)](_0x422b11(0x202)))_0x3537ab[_0x422b11(0x1ec)](_0x422b11(0x1d1))['val']('');}),_0x3b047c['find']('input[type=password]')['each'](function(){var _0x38a857=_0x2c17ec,_0xad8e15=_0x19a193(this),_0xbdc770=_0x19a193(_0x19a193(_0x38a857(0x1fd))[_0x38a857(0x207)](_0xad8e15[_0x38a857(0x20f)]())[_0x38a857(0x1db)]()['html']()['replace'](/type="password"/i,_0x38a857(0x22c))[_0x38a857(0x1ee)](/type=password/i,_0x38a857(0x1ef)));if(_0xad8e15[_0x38a857(0x1de)]('id')!='')_0xbdc770[_0x38a857(0x1de)]('id',_0xad8e15[_0x38a857(0x1de)]('id')+'-polyfill-field');if(_0xad8e15[_0x38a857(0x1de)](_0x38a857(0x1cd))!='')_0xbdc770[_0x38a857(0x1de)](_0x38a857(0x1cd),_0xad8e15[_0x38a857(0x1de)](_0x38a857(0x1cd))+_0x38a857(0x1dd));_0xbdc770[_0x38a857(0x212)]('polyfill-placeholder')[_0x38a857(0x226)](_0xbdc770[_0x38a857(0x1de)]('placeholder'))[_0x38a857(0x21e)](_0xad8e15);if(_0xad8e15['val']()=='')_0xad8e15[_0x38a857(0x206)]();else _0xbdc770[_0x38a857(0x206)]();_0xad8e15['on'](_0x38a857(0x1f1),function(_0x47dc19){var _0x16adc0=_0x38a857;_0x47dc19[_0x16adc0(0x1f9)]();var _0x5e051b=_0xad8e15[_0x16adc0(0x1d4)]()[_0x16adc0(0x21c)](_0x16adc0(0x1e8)+_0xad8e15[_0x16adc0(0x1de)](_0x16adc0(0x1cd))+'-polyfill-field]');_0xad8e15[_0x16adc0(0x226)]()==''&&(_0xad8e15[_0x16adc0(0x206)](),_0x5e051b[_0x16adc0(0x1eb)]());}),_0xbdc770['on'](_0x38a857(0x1e0),function(_0xf077bd){var _0x508b93=_0x38a857;_0xf077bd[_0x508b93(0x1f9)]();var _0x1f54d9=_0xbdc770[_0x508b93(0x1d4)]()['find'](_0x508b93(0x1e8)+_0xbdc770[_0x508b93(0x1de)](_0x508b93(0x1cd))[_0x508b93(0x1ee)](_0x508b93(0x1dd),'')+']');_0xbdc770['hide'](),_0x1f54d9[_0x508b93(0x1eb)]()[_0x508b93(0x1e0)]();})['on'](_0x38a857(0x223),function(_0x2a1f2b){var _0x1bdd99=_0x38a857;_0x2a1f2b[_0x1bdd99(0x1f9)](),_0xbdc770[_0x1bdd99(0x226)]('');});}),_0x3b047c['on'](_0x2c17ec(0x1f8),function(){var _0x3b5b26=_0x2c17ec;_0x3b047c[_0x3b5b26(0x21c)](_0x3b5b26(0x201))[_0x3b5b26(0x1d9)](function(_0x29619d){var _0x20de0f=_0x3b5b26,_0x1e6121=_0x19a193(this);if(_0x1e6121[_0x20de0f(0x1de)](_0x20de0f(0x1cd))[_0x20de0f(0x216)](/-polyfill-field$/))_0x1e6121[_0x20de0f(0x1de)](_0x20de0f(0x1cd),'');_0x1e6121['val']()==_0x1e6121[_0x20de0f(0x1de)](_0x20de0f(0x202))&&(_0x1e6121[_0x20de0f(0x1ec)]('polyfill-placeholder'),_0x1e6121['val'](''));});})['on'](_0x2c17ec(0x1cb),function(_0x53d517){var _0xed0cbd=_0x2c17ec;_0x53d517[_0xed0cbd(0x1f9)](),_0x3b047c['find']('select')[_0xed0cbd(0x226)](_0x19a193(_0xed0cbd(0x1e1))[_0xed0cbd(0x226)]()),_0x3b047c['find']('input,textarea')[_0xed0cbd(0x1d9)](function(){var _0x240172=_0xed0cbd,_0x30a87b=_0x19a193(this),_0x1d8eb2;_0x30a87b['removeClass'](_0x240172(0x1d1));switch(this[_0x240172(0x1e2)]){case _0x240172(0x1f8):case'reset':break;case'password':_0x30a87b['val'](_0x30a87b['attr'](_0x240172(0x1f2))),_0x1d8eb2=_0x30a87b['parent']()[_0x240172(0x21c)](_0x240172(0x1e8)+_0x30a87b[_0x240172(0x1de)]('name')+_0x240172(0x221));_0x30a87b['val']()==''?(_0x30a87b[_0x240172(0x206)](),_0x1d8eb2[_0x240172(0x1eb)]()):(_0x30a87b[_0x240172(0x1eb)](),_0x1d8eb2[_0x240172(0x206)]());break;case _0x240172(0x1fa):case _0x240172(0x209):_0x30a87b[_0x240172(0x1de)](_0x240172(0x1e5),_0x30a87b[_0x240172(0x1de)]('defaultValue'));break;case _0x240172(0x1d2):case'textarea':_0x30a87b[_0x240172(0x226)](_0x30a87b[_0x240172(0x1de)]('defaultValue'));_0x30a87b[_0x240172(0x226)]()==''&&(_0x30a87b['addClass'](_0x240172(0x1d1)),_0x30a87b['val'](_0x30a87b['attr'](_0x240172(0x202))));break;default:_0x30a87b[_0x240172(0x226)](_0x30a87b['attr']('defaultValue'));break;}});}),_0x3b047c;},_0x19a193[_0x11e077(0x1cf)]=function(_0x45a471,_0x5e899d){var _0xaea6f7=_0x11e077,_0x557e13=_0xaea6f7(0x20b);if(typeof _0x45a471!='jQuery')_0x45a471=_0x19a193(_0x45a471);_0x45a471[_0xaea6f7(0x1d9)](function(){var _0x1f3ece=_0xaea6f7,_0x376182=_0x19a193(this),_0xa98998,_0x27b500=_0x376182[_0x1f3ece(0x1d4)]();if(_0x27b500['length']==0x0)return;if(!_0x376182[_0x1f3ece(0x1d0)](_0x557e13)){if(!_0x5e899d)return;_0xa98998=_0x376182[_0x1f3ece(0x22d)]();if(_0xa98998[_0x1f3ece(0x219)]==0x0)return;_0x376182[_0x1f3ece(0x1d3)](_0x27b500),_0x376182[_0x1f3ece(0x1d0)](_0x557e13,_0xa98998);}else{if(_0x5e899d)return;_0xa98998=_0x376182[_0x1f3ece(0x1d0)](_0x557e13),_0x376182[_0x1f3ece(0x21e)](_0xa98998),_0x376182[_0x1f3ece(0x227)](_0x557e13);}});};}(jQuery));
+(function($) {
+
+	/**
+	 * Generate an indented list of links from a nav. Meant for use with panel().
+	 * @return {jQuery} jQuery object.
+	 */
+	$.fn.navList = function() {
+
+		var	$this = $(this);
+			$a = $this.find('a'),
+			b = [];
+
+		$a.each(function() {
+
+			var	$this = $(this),
+				indent = Math.max(0, $this.parents('li').length - 1),
+				href = $this.attr('href'),
+				target = $this.attr('target');
+
+			b.push(
+				'<a ' +
+					'class="link depth-' + indent + '"' +
+					( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
+					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
+				'>' +
+					'<span class="indent-' + indent + '"></span>' +
+					$this.text() +
+				'</a>'
+			);
+
+		});
+
+		return b.join('');
+
+	};
+
+	/**
+	 * Panel-ify an element.
+	 * @param {object} userConfig User config.
+	 * @return {jQuery} jQuery object.
+	 */
+	$.fn.panel = function(userConfig) {
+
+		// No elements?
+			if (this.length == 0)
+				return $this;
+
+		// Multiple elements?
+			if (this.length > 1) {
+
+				for (var i=0; i < this.length; i++)
+					$(this[i]).panel(userConfig);
+
+				return $this;
+
+			}
+
+		// Vars.
+			var	$this = $(this),
+				$body = $('body'),
+				$window = $(window),
+				id = $this.attr('id'),
+				config;
+
+		// Config.
+			config = $.extend({
+
+				// Delay.
+					delay: 0,
+
+				// Hide panel on link click.
+					hideOnClick: false,
+
+				// Hide panel on escape keypress.
+					hideOnEscape: false,
+
+				// Hide panel on swipe.
+					hideOnSwipe: false,
+
+				// Reset scroll position on hide.
+					resetScroll: false,
+
+				// Reset forms on hide.
+					resetForms: false,
+
+				// Side of viewport the panel will appear.
+					side: null,
+
+				// Target element for "class".
+					target: $this,
+
+				// Class to toggle.
+					visibleClass: 'visible'
+
+			}, userConfig);
+
+			// Expand "target" if it's not a jQuery object already.
+				if (typeof config.target != 'jQuery')
+					config.target = $(config.target);
+
+		// Panel.
+
+			// Methods.
+				$this._hide = function(event) {
+
+					// Already hidden? Bail.
+						if (!config.target.hasClass(config.visibleClass))
+							return;
+
+					// If an event was provided, cancel it.
+						if (event) {
+
+							event.preventDefault();
+							event.stopPropagation();
+
+						}
+
+					// Hide.
+						config.target.removeClass(config.visibleClass);
+
+					// Post-hide stuff.
+						window.setTimeout(function() {
+
+							// Reset scroll position.
+								if (config.resetScroll)
+									$this.scrollTop(0);
+
+							// Reset forms.
+								if (config.resetForms)
+									$this.find('form').each(function() {
+										this.reset();
+									});
+
+						}, config.delay);
+
+				};
+
+			// Vendor fixes.
+				$this
+					.css('-ms-overflow-style', '-ms-autohiding-scrollbar')
+					.css('-webkit-overflow-scrolling', 'touch');
+
+			// Hide on click.
+				if (config.hideOnClick) {
+
+					$this.find('a')
+						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
+
+					$this
+						.on('click', 'a', function(event) {
+
+							var $a = $(this),
+								href = $a.attr('href'),
+								target = $a.attr('target');
+
+							if (!href || href == '#' || href == '' || href == '#' + id)
+								return;
+
+							// Cancel original event.
+								event.preventDefault();
+								event.stopPropagation();
+
+							// Hide panel.
+								$this._hide();
+
+							// Redirect to href.
+								window.setTimeout(function() {
+
+									if (target == '_blank')
+										window.open(href);
+									else
+										window.location.href = href;
+
+								}, config.delay + 10);
+
+						});
+
+				}
+
+			// Event: Touch stuff.
+				$this.on('touchstart', function(event) {
+
+					$this.touchPosX = event.originalEvent.touches[0].pageX;
+					$this.touchPosY = event.originalEvent.touches[0].pageY;
+
+				})
+
+				$this.on('touchmove', function(event) {
+
+					if ($this.touchPosX === null
+					||	$this.touchPosY === null)
+						return;
+
+					var	diffX = $this.touchPosX - event.originalEvent.touches[0].pageX,
+						diffY = $this.touchPosY - event.originalEvent.touches[0].pageY,
+						th = $this.outerHeight(),
+						ts = ($this.get(0).scrollHeight - $this.scrollTop());
+
+					// Hide on swipe?
+						if (config.hideOnSwipe) {
+
+							var result = false,
+								boundary = 20,
+								delta = 50;
+
+							switch (config.side) {
+
+								case 'left':
+									result = (diffY < boundary && diffY > (-1 * boundary)) && (diffX > delta);
+									break;
+
+								case 'right':
+									result = (diffY < boundary && diffY > (-1 * boundary)) && (diffX < (-1 * delta));
+									break;
+
+								case 'top':
+									result = (diffX < boundary && diffX > (-1 * boundary)) && (diffY > delta);
+									break;
+
+								case 'bottom':
+									result = (diffX < boundary && diffX > (-1 * boundary)) && (diffY < (-1 * delta));
+									break;
+
+								default:
+									break;
+
+							}
+
+							if (result) {
+
+								$this.touchPosX = null;
+								$this.touchPosY = null;
+								$this._hide();
+
+								return false;
+
+							}
+
+						}
+
+					// Prevent vertical scrolling past the top or bottom.
+						if (($this.scrollTop() < 0 && diffY < 0)
+						|| (ts > (th - 2) && ts < (th + 2) && diffY > 0)) {
+
+							event.preventDefault();
+							event.stopPropagation();
+
+						}
+
+				});
+
+			// Event: Prevent certain events inside the panel from bubbling.
+				$this.on('click touchend touchstart touchmove', function(event) {
+					event.stopPropagation();
+				});
+
+			// Event: Hide panel if a child anchor tag pointing to its ID is clicked.
+				$this.on('click', 'a[href="#' + id + '"]', function(event) {
+
+					event.preventDefault();
+					event.stopPropagation();
+
+					config.target.removeClass(config.visibleClass);
+
+				});
+
+		// Body.
+
+			// Event: Hide panel on body click/tap.
+				$body.on('click touchend', function(event) {
+					$this._hide(event);
+				});
+
+			// Event: Toggle.
+				$body.on('click', 'a[href="#' + id + '"]', function(event) {
+
+					event.preventDefault();
+					event.stopPropagation();
+
+					config.target.toggleClass(config.visibleClass);
+
+				});
+
+		// Window.
+
+			// Event: Hide on ESC.
+				if (config.hideOnEscape)
+					$window.on('keydown', function(event) {
+
+						if (event.keyCode == 27)
+							$this._hide(event);
+
+					});
+
+		return $this;
+
+	};
+
+	/**
+	 * Apply "placeholder" attribute polyfill to one or more forms.
+	 * @return {jQuery} jQuery object.
+	 */
+	$.fn.placeholder = function() {
+
+		// Browser natively supports placeholders? Bail.
+			if (typeof (document.createElement('input')).placeholder != 'undefined')
+				return $(this);
+
+		// No elements?
+			if (this.length == 0)
+				return $this;
+
+		// Multiple elements?
+			if (this.length > 1) {
+
+				for (var i=0; i < this.length; i++)
+					$(this[i]).placeholder();
+
+				return $this;
+
+			}
+
+		// Vars.
+			var $this = $(this);
+
+		// Text, TextArea.
+			$this.find('input[type=text],textarea')
+				.each(function() {
+
+					var i = $(this);
+
+					if (i.val() == ''
+					||  i.val() == i.attr('placeholder'))
+						i
+							.addClass('polyfill-placeholder')
+							.val(i.attr('placeholder'));
+
+				})
+				.on('blur', function() {
+
+					var i = $(this);
+
+					if (i.attr('name').match(/-polyfill-field$/))
+						return;
+
+					if (i.val() == '')
+						i
+							.addClass('polyfill-placeholder')
+							.val(i.attr('placeholder'));
+
+				})
+				.on('focus', function() {
+
+					var i = $(this);
+
+					if (i.attr('name').match(/-polyfill-field$/))
+						return;
+
+					if (i.val() == i.attr('placeholder'))
+						i
+							.removeClass('polyfill-placeholder')
+							.val('');
+
+				});
+
+		// Password.
+			$this.find('input[type=password]')
+				.each(function() {
+
+					var i = $(this);
+					var x = $(
+								$('<div>')
+									.append(i.clone())
+									.remove()
+									.html()
+									.replace(/type="password"/i, 'type="text"')
+									.replace(/type=password/i, 'type=text')
+					);
+
+					if (i.attr('id') != '')
+						x.attr('id', i.attr('id') + '-polyfill-field');
+
+					if (i.attr('name') != '')
+						x.attr('name', i.attr('name') + '-polyfill-field');
+
+					x.addClass('polyfill-placeholder')
+						.val(x.attr('placeholder')).insertAfter(i);
+
+					if (i.val() == '')
+						i.hide();
+					else
+						x.hide();
+
+					i
+						.on('blur', function(event) {
+
+							event.preventDefault();
+
+							var x = i.parent().find('input[name=' + i.attr('name') + '-polyfill-field]');
+
+							if (i.val() == '') {
+
+								i.hide();
+								x.show();
+
+							}
+
+						});
+
+					x
+						.on('focus', function(event) {
+
+							event.preventDefault();
+
+							var i = x.parent().find('input[name=' + x.attr('name').replace('-polyfill-field', '') + ']');
+
+							x.hide();
+
+							i
+								.show()
+								.focus();
+
+						})
+						.on('keypress', function(event) {
+
+							event.preventDefault();
+							x.val('');
+
+						});
+
+				});
+
+		// Events.
+			$this
+				.on('submit', function() {
+
+					$this.find('input[type=text],input[type=password],textarea')
+						.each(function(event) {
+
+							var i = $(this);
+
+							if (i.attr('name').match(/-polyfill-field$/))
+								i.attr('name', '');
+
+							if (i.val() == i.attr('placeholder')) {
+
+								i.removeClass('polyfill-placeholder');
+								i.val('');
+
+							}
+
+						});
+
+				})
+				.on('reset', function(event) {
+
+					event.preventDefault();
+
+					$this.find('select')
+						.val($('option:first').val());
+
+					$this.find('input,textarea')
+						.each(function() {
+
+							var i = $(this),
+								x;
+
+							i.removeClass('polyfill-placeholder');
+
+							switch (this.type) {
+
+								case 'submit':
+								case 'reset':
+									break;
+
+								case 'password':
+									i.val(i.attr('defaultValue'));
+
+									x = i.parent().find('input[name=' + i.attr('name') + '-polyfill-field]');
+
+									if (i.val() == '') {
+										i.hide();
+										x.show();
+									}
+									else {
+										i.show();
+										x.hide();
+									}
+
+									break;
+
+								case 'checkbox':
+								case 'radio':
+									i.attr('checked', i.attr('defaultValue'));
+									break;
+
+								case 'text':
+								case 'textarea':
+									i.val(i.attr('defaultValue'));
+
+									if (i.val() == '') {
+										i.addClass('polyfill-placeholder');
+										i.val(i.attr('placeholder'));
+									}
+
+									break;
+
+								default:
+									i.val(i.attr('defaultValue'));
+									break;
+
+							}
+						});
+
+				});
+
+		return $this;
+
+	};
+
+	/**
+	 * Moves elements to/from the first positions of their respective parents.
+	 * @param {jQuery} $elements Elements (or selector) to move.
+	 * @param {bool} condition If true, moves elements to the top. Otherwise, moves elements back to their original locations.
+	 */
+	$.prioritize = function($elements, condition) {
+
+		var key = '__prioritize';
+
+		// Expand $elements if it's not already a jQuery object.
+			if (typeof $elements != 'jQuery')
+				$elements = $($elements);
+
+		// Step through elements.
+			$elements.each(function() {
+
+				var	$e = $(this), $p,
+					$parent = $e.parent();
+
+				// No parent? Bail.
+					if ($parent.length == 0)
+						return;
+
+				// Not moved? Move it.
+					if (!$e.data(key)) {
+
+						// Condition is false? Bail.
+							if (!condition)
+								return;
+
+						// Get placeholder (which will serve as our point of reference for when this element needs to move back).
+							$p = $e.prev();
+
+							// Couldn't find anything? Means this element's already at the top, so bail.
+								if ($p.length == 0)
+									return;
+
+						// Move element to top of parent.
+							$e.prependTo($parent);
+
+						// Mark element as moved.
+							$e.data(key, $p);
+
+					}
+
+				// Moved already?
+					else {
+
+						// Condition is true? Bail.
+							if (condition)
+								return;
+
+						$p = $e.data(key);
+
+						// Move element back to its original location (using our placeholder).
+							$e.insertAfter($p);
+
+						// Unmark element as moved.
+							$e.removeData(key);
+
+					}
+
+			});
+
+	};
+
+})(jQuery);
