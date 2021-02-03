@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //画面遷移させないためのスクリプト
+        const $form = $('#form')
+        $('.btn-send').on('click', evt => {
+            $form.submit()
+            $form[0].reset()
+            return false
+        })
+    </script>
+
+    <form name="hoge" id="hoge1" action="該当のPHPファイルのURL/index.php" method="post" target="send">
+        <p>ここに入力してくだい：<input type="text" id="id_textBox1" name="sendPHP" autocomplete="on"></p>
+        <button class="btn-send">決定</button>
+    </form>
+
+    <iframe name="send" style="width:0px;height:0px;border:0px;"></iframe>
+    <!--画面遷移させないため-->
+</body>
+
+</html>
