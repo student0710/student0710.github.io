@@ -1,136 +1,38 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="ja">
 
-<head>
-	<title>タイトル的なやつ</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
+	<head>
+		<title>ログインページ</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
 
-<body class="is-preload">
-
-	<!-- Wrapper -->
-	<div id="wrapper">
+	<body class="is-preload">
 
 		<!-- Header -->
 		<header id="header">
-			<div class="content">
-				<div class="inner">
-					<h1>タイトル的なやつ</h1>
-					<p>暇つぶしに作りました。「メッセージを書く」から高橋先生へのメッセージを書けます。</p>
-					<p>「メッセージを見る」からメッセージの枠を見れます。メッセージを書くときに選択できます。言ってくれれば増やします。</p>
-				</div>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#look">メッセージを見る</a></li>
-					<li><a href="#create">メッセージを書く</a></li>
-				</ul>
-			</nav>
+			<h1>ログインページ</h1>
 		</header>
 
-		<!-- Main -->
-		<div id="main">
+		<!-- Form -->
+		<form id="passwd-form" method="post">
+			<input type="password" placeholder="パスワードを入力してください" class="form-control" name="password"
+				id="password" minlength="8" maxlength="15" size="15" />
+			<input type="submit" value="送信" />
+			<input type="reset" value="取消" />
+		</form>
 
-			<!-- ==========| look |========== -->
-			<article id="look">
-				<h2 class="major">メッセージを見る</h2>
-				<p>こんな感じのメッセージカードです。詳細はメッセージカードを書くから確認できます。</p>
-				<ul>
-					<div class="box25">
-						<p>No.1 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box14">
-						<p>No.2 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box15">
-						<p>No.3 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box16">
-						<p>No.4 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box4">
-						<p>No.5 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box5">
-						<p>No.6 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box6">
-						<p>No.7 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box10">
-						<p>No.8 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box11">
-						<p>No.9 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box12">
-						<p>No.10 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<div class="box9">
-						<p>No.11 | ここに文章が入ります</p>
-						<div class="name">
-							<p>名前がここに入ります</p>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><a href="#" class="button">前のページに戻る</a></li>
-					</ul>
-				</ul>
-			</article>
-
-		</div>
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">Copyright © 2021 相田優希. All Rights Reserved.</p>
+			<ul class="copyright">
+				<li>Copyright &copy; 2021 相田優希. All Rights Reserved.</li>
+			</ul>
 		</footer>
 
-	</div>
-
-	<!-- BG -->
-	<div id="bg"></div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-</body>
+		<!-- Scripts -->
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/sub.js"></script>
+	</body>
 
 </html>
