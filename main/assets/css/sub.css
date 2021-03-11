@@ -5,6 +5,7 @@
     color: #FFF;
     background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
     transition: .4s;
+    margin: auto;
 }
 
 .btn-gradient-flat:hover {
